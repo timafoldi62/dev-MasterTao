@@ -12,7 +12,7 @@ Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, feat
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-@font-face {
+/* @font-face {
 	font-family: "ProximaNova";
 	src: url("./fonts/ProximaNova-Light.ttf") format("truetype");
 	font-weight: 300;
@@ -39,8 +39,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
-}
-::selection {
+} */
+/*::selection {
 	color: #fff;
 	background-color: #89c249;
 }
@@ -123,7 +123,7 @@ a:hover {
 	height: 27px;
 	transition: 0.3s;
 }
-
+*/ /*
 h1,
 h2,
 h3,
@@ -209,7 +209,7 @@ ul.slick-dots button {
 .slider-template .slick-arrow.slick-next {
 	right: -100px;
 }
-
+*/
 .hamburger {
 	padding: 0;
 	display: inline-block;
@@ -320,7 +320,7 @@ ul.slick-dots button {
 		transform 0.075s 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-header .navbar {
+/*header .navbar {
 	padding-top: 25px;
 	padding-bottom: 39px;
 }
@@ -350,52 +350,9 @@ header .navbar-light .navbar-nav .nav-link {
 header .navbar-light .navbar-nav .nav-link:hover {
 	color: #89c249;
 }
+*/
 
-.first-screen {
-	position: relative;
-}
-.first-screen .first-screen-nav {
-	display: flex;
-	max-width: 1568px;
-	width: 100%;
-	justify-content: space-between;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.first-screen-slider .slick-slide {
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.first-screen-slider .slick-dots {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, 0);
-	bottom: 42px;
-}
-
-.first-screen-title {
-	font-size: 56px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 126%; /* 70.56px */
-	text-transform: uppercase;
-	max-width: 463px;
-	margin-bottom: 8px;
-}
-
-.first-screen-subtitle {
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 300;
-	line-height: 135.5%; /* 27.1px */
-	max-width: 345px;
-	margin-bottom: 37px;
-}
-
-section .calc {
+/*section .calc {
 	overflow-x: clip;
 }
 
@@ -560,9 +517,9 @@ section .calc {
 .pos-checkbox {
 	padding-top: 21px;
 	margin-bottom: 6px;
-}
+}*/
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 	.first-screen-slider .slick-slide {
 		padding: 0 92px;
 		border-radius: 20px;
@@ -575,7 +532,9 @@ section .calc {
 		margin-bottom: 99px;
 	}
 }
-@media screen and (max-width: 991px) {
+
+*/
+/*@media screen and (max-width: 991px) {
 	.container-xxl {
 		padding: 0;
 	}
@@ -686,5 +645,5 @@ section .calc {
 		transform: translate(-50%, 0%);
 	}
 }
-
+*/
 /*# sourceMappingURL=style.css.map */

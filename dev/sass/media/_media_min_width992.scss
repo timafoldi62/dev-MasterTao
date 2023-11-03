@@ -1,13 +1,16 @@
 @media (min-width: 992px) {
-	.first-screen-slider .slick-slide {
-		padding: 0 92px;
-		border-radius: 20px;
-	}
-	.first-screen-slider .container {
-		padding-top: 164px;
-		padding-bottom: 228px;
-	}
-	.first-screen-slider .container .mb-first-screen {
-		margin-bottom: 99px;
+	.first-screen-slider {
+		.slick-slide {
+			padding: 0 92px;
+			border-radius: 20px;
+		}
+
+		.container {
+			padding-top: 164px;
+			padding-bottom: 228px;
+		}
+		.first-screen-slider .container .mb-first-screen {
+			margin-bottom: 99px;
+		}
 	}
 }

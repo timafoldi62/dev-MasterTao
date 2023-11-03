@@ -21,7 +21,9 @@ $(".first-screen-slider").slick({
 //upload-file
 
 document.getElementById("fileInput").onchange = function () {
-	document.getElementById("file-name").innerHTML = this.files[0].name;
+	//short name
+	// document.getElementById('file-name').innerHTML = this.files[0].name;
+	document.getElementById("file-name").innerHTML = this.value;
 };
 
 const checkButton = document.querySelectorAll('[type="checkbox"]');
