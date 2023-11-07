@@ -482,9 +482,6 @@ section {
 		}
 	}
 }
-.input-row {
-	display: flex;
-}
 
 .input-column {
 	width: 100%;
@@ -530,20 +527,20 @@ section {
 		}
 	}
 }
-.calculation-form {
+/*.calculation-form {
 	background-color: #363a4d;
 	border-radius: 20px;
 	padding: 50px;
 	max-width: 626px;
 	max-height: 597px;
-}
+}*/
 
-.calculation .calc-decoration {
+/*.calculation .img {
 	z-index: 1;
 	position: relative;
 	top: -752px;
 	left: 598.5px;
-}
+}*/
 .padding {
 	padding-top: 21px; /*для .input-column */
 }

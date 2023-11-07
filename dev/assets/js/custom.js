@@ -29,5 +29,6 @@ document.getElementById("fileInput").onchange = function () {
 const checkButton = document.querySelectorAll('[type="checkbox"]');
 
 checkButton.forEach((item, index) => {
+	/*item.closest(".input-column").style.marginBottom = "-10px";*/
 	index === 0 ? item.closest(".input-box").classList.add("pos-checkbox") : null;
 });

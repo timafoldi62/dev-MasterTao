@@ -9,8 +9,24 @@
 			padding-top: 164px;
 			padding-bottom: 228px;
 		}
-		.first-screen-slider .container .mb-first-screen {
-			margin-bottom: 99px;
+	}
+
+	.template-title {
+		&.col-lg-7 {
+			text-align: left;
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	.input-row {
+		display: flex;
+	}
+
+	.advantages {
+		.row {
+			margin-bottom: -48px;
 		}
 	}
 }
