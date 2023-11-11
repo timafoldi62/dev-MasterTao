@@ -1,1 +1,33 @@
+.advantage {
+	text-align: center;
+	margin-bottom: 48px;
+	max-width: 267px;
+	&__img-box {
+		width: 113px;
+		height: 113px;
+		border: 1px solid #6c7188;
+		border-radius: 50%;
+		padding: 10px;
+		margin: 0 auto 22px;
 
+		img {
+			background: #89c249;
+			width: 100%;
+			height: auto;
+			border-radius: 50%;
+			object-fit: scale-down;
+		}
+	}
+	&__text-box {
+		font-size: 18px;
+		font-weight: 400;
+		max-width: 160px;
+		margin: 0 auto;
+	}
+}
+
+.slick-slider {
+	.advantage {
+		margin: 0 auto 48px;
+	}
+}
