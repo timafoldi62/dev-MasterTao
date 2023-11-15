@@ -36,6 +36,31 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 		],
 	};
 
+	$(".template-slider").slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1350,
+				settings: {
+					slidesToShow: 2,
+				},
+			},
+			{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots: true,
+					arrows: false,
+				},
+			},
+		],
+	});
+
 	slider.slick(settings);
 
 	$(window).on("resize", function () {
