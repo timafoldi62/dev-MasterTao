@@ -148,4 +148,18 @@
 	#file-name {
 		top: 0;
 	}
+	.template-slider {
+		max-width: 360px;
+		.slick-list {
+			margin: 0 -15px 32px;
+		}
+	}
+
+	.card-button-row {
+		.btn {
+			width: 138px;
+			justify-content: center;
+			padding: 13px 5px;
+		}
+	}
 }

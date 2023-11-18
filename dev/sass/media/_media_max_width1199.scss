@@ -1,3 +1,24 @@
+@media screen and (max-width: 1399px) {
+	.template-slider {
+		.slick-arrow {
+			&.slick-next {
+				right: -92px;
+			}
+
+			&.slick-prev {
+				left: -92px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.template-slider {
+		max-width: 749px;
+		margin: 0 auto;
+	}
+}
+
 @media screen and (max-width: 1199px) {
 	header {
 		.navbar-light {
