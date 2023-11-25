@@ -1,0 +1,28 @@
+.about-company {
+	.template-title {
+		h2 {
+			font-size: 36px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 124.5%;
+			text-transform: uppercase;
+		}
+		text-align: left;
+		&:after {
+			left: 42px;
+		}
+	}
+
+	p {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 170%; /* 30.6px */
+		span {
+			font-weight: 400;
+		}
+	}
+	.img-box {
+		margin-top: -160px;
+	}
+}

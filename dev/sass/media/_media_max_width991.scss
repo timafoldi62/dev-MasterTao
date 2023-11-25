@@ -162,4 +162,125 @@
 			padding: 13px 5px;
 		}
 	}
+
+	.about-company {
+		padding: 54px 0 54px;
+		.desqription {
+			padding-left: 12px;
+			padding-right: 12px;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.container {
+			.template-title {
+				text-align: center;
+			}
+			p {
+				text-align: justify;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: 149%;
+				span {
+					font-weight: 400;
+				}
+			}
+			.img-box {
+				margin-top: 25px;
+
+				img {
+					width: 275px;
+					height: auto;
+					margin: 0 auto;
+					display: block;
+				}
+			}
+		}
+
+		.question .container .question-position {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.question .container .accordion-questions {
+			width: auto;
+		}
+
+		.accordion-questions {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.question .container .template-title h2 {
+			font-size: 24px;
+		}
+		.questions-col-form {
+			max-width: 414px;
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.cooperation {
+			padding-top: 54px;
+			padding-bottom: 60px;
+			text-align: justify;
+
+			.template-title {
+				h2 {
+					font-size: 24px;
+					font-weight: 700;
+					line-height: 124.5%;
+					/* 29.88px */
+				}
+
+				h4 {
+					font-size: 16px;
+					font-weight: 400;
+					line-height: 124.5%;
+					/* 29.88px */
+				}
+			}
+		}
+
+		.content-box {
+			display: flex;
+			flex-direction: column;
+
+			ul {
+				order: 2;
+			}
+
+			img {
+				max-width: 335px;
+				order: 1;
+				height: auto;
+			}
+
+			button {
+				order: 3;
+			}
+		}
+
+		.information-column {
+			margin: 0 auto;
+			max-width: 200px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.column-link-wrapper {
+			display: none;
+		}
+
+		.cooperation-decoration {
+			width: 335px;
+			height: 220px;
+		}
+		.about-company {
+			padding-top: 54px;
+			padding-bottom: 60px;
+		}
+	}
 }

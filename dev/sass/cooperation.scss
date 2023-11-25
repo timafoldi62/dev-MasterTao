@@ -1,0 +1,67 @@
+.cooperation {
+	width: 100%;
+	background-color: #363a4d;
+	position: relative;
+	max-width: 1850px;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+
+	.content-box-1 {
+		margin-bottom: auto;
+	}
+
+	.content-box {
+		margin-bottom: auto;
+		.cooperation-decoration {
+			max-width: 555px;
+			border-radius: 20px;
+			border-radius: 20px;
+			box-shadow: 5px 15px 40px 0px rgba(11, 24, 97, 0.32);
+			height: auto;
+			margin-bottom: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	.template-title {
+	}
+
+	h2 {
+		font-size: 36px;
+		font-weight: 700;
+	}
+
+	h4 {
+		font-size: 24px;
+		font-weight: 400;
+	}
+
+	ul {
+		list-style-position: inside;
+		padding-inline-start: 0;
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	li {
+		margin-bottom: 30px;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 156.5%;
+		/* 26.605px */
+	}
+
+	.btn-coop {
+		padding-right: 0;
+		width: 243px;
+		margin-left: auto;
+		margin-right: auto;
+
+		img {
+			margin-left: 27px;
+		}
+	}
+}
